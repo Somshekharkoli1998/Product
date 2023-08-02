@@ -16,9 +16,6 @@ public class Product {
     private String productDescription;
     private LocalDate expiryDate;
 
-    // getters and setters
-
-
     public Long getProductId() {
         return productId;
     }
