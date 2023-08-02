@@ -10,6 +10,7 @@ POST /products - Create a new product
                                        "expiryDate": "2023-12-31"
                                    }
 
+
 PUT /products/{id} - Update an existing product
                                    http://localhost:8080/products/1
 
