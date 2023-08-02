@@ -1,0 +1,18 @@
+GET /products - Get all products
+
+GET /products/{id} - Get product by ID
+
+POST /products - Create a new product
+                                   http://localhost:8080/products
+                                   {
+                                       "productName": "Product_NAme",
+                                       "productDescription": "XYZ",
+                                       "expiryDate": "2023-12-31"
+                                   }
+
+PUT /products/{id} - Update an existing product
+                                   http://localhost:8080/products/1
+
+
+DELETE /products/{id} - Delete a product by ID
+                                    http://localhost:8080/products/2
